@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "docs:dev": "npx vuepress dev docs",
-    "docs:build": "npx vuepress build docs",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "npx vuepress dev docs",
+    "build": "npx vuepress build docs",
+    "lint": "vue-cli-service lint",
+    "push" : "sh ./deploy.sh"
   },
   "dependencies": {
     "vue": "^2.6.10"

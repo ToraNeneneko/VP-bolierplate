@@ -1,13 +1,5 @@
-# boilerpalte for vuepress
+### boilerplate for VuePress, meant for github pages etc.
 
-### boilerplate for VuePress, meant for blogs etc.
+> vuepress开箱即用模板,用于github pages
 
-> You need yarn to run deploy.sh, and vuepress recommend use yarn as package manager
-
-### commands
-
-``` sh
-yarn docs:dev # start writing
-yarn docs:build # build your site
-sh ./deploy.sh  # deploy to github pages
-```
+[Guide](https://toraneneneko.github.io/VP-bolierplate/)
