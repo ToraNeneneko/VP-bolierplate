@@ -1,21 +1,13 @@
-# myblog
+# boilerpalte for vuepress
 
-## Project setup
-```
-yarn install
-```
+### boilerplate for VuePress, meant for blogs etc.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+> You need yarn to run deploy.sh, and vuepress recommend use yarn as package manager
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### commands
 
-### Lints and fixes files
-```
-yarn run lint
+``` sh
+yarn docs:dev # start writing
+yarn docs:build # build your site
+sh ./deploy.sh  # deploy to github pages
 ```
